@@ -4,10 +4,17 @@ import { BiMenuAltRight, BiPhoneCall } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
+import useoutsideAlerter from "../../hooks/useOutsideAlerter";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const HeaderShadow = useHeaderShadow();
+  // const menuRef = useRef();
+
+  // useoutsideAlerter({
+  //   menuRef,
+  //   setMenuOpened,
+  // });
 
   return (
     <motion.div
@@ -21,25 +28,21 @@ const Header = () => {
         <div className={css.name}>PortFolio</div>
 
         <ul
+          // ref={menuRef}
           style={getMenuStyles(menuOpen)}
           className={`flexCenter  ${css.menu}`}>
           <li>
-            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#people">Testimonials</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#work">Experience</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
-          </li>
-          <li>
-            <a href="#Testimonials">Testimonials</a>
-          </li>
-          <li>
-            <a href="#Experience">Experience</a>
-          </li>
-          <li>
-            <a href="#Services">Services</a>
+            <a href="#experties">Services</a>
           </li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+91-8588035884</p>

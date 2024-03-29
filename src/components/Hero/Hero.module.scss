@@ -45,7 +45,7 @@
 
         img {
           margin-bottom: 1rem;
-          width: 3.5rem;
+          width: 3.1rem;
         }
       }
     }
@@ -61,7 +61,7 @@
         background-position: bottom;
       }
       position: absolute;
-      bottom: 2rem;
+      bottom: 1rem;
       margin: auto;
       background-image: url("../splash.png");
       background-repeat: no-repeat;
@@ -70,10 +70,19 @@
 
       img {
         @media (max-width: $sm) {
-          width: 23rem;
+          width: 20rem;
+          height: 15rem;
         }
         margin-bottom: -5px;
       }
+    }
+    a {
+      padding: 16px 35px 12;
+      text-decoration: none;
+      border: rgb(255, 181, 0) 1px solid;
+      border-radius: 35px;
+      letter-spacing: 2px;
+      color: #e45314;
     }
 
     .email {

@@ -12,6 +12,7 @@ const Experties = () => {
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className={css.wrapper}>
+      <a className="anchor" id="experties"></a>
       <div
         className={`paddings ypaddings flexCenter innerWidth ${css.container}`}>
         <div className={css.leftSide}>
@@ -49,12 +50,12 @@ const Experties = () => {
 
           <div className={` flexCenter ${css.stats}`}>
             <div className={` flexCenter ${css.stat}`}>
-              <span className="primaryText">25+</span>
-              <span className="secondaryText">Projects Completed</span>
+              <span className="primaryText">12 +</span>
+              <span className="secondaryText" >    Projects Completed</span>
             </div>
             <div className={` flexCenter ${css.stat}`}>
-              <span className="primaryText">20+</span>
-              <span className="secondaryText">Happy Clients</span>
+              <span className="primaryText">15 +</span>
+              <span className="secondaryText"> Happy Clients</span>
             </div>
           </div>
         </motion.div>

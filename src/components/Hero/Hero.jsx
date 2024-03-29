@@ -6,6 +6,7 @@ import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
 const Hero = () => {
   return (
     <section className={`paddings ${css.wrapper}`}>
+      <a className="anchor" id="portfolio"></a>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -30,24 +31,26 @@ const Hero = () => {
 
         {/* person img section */}
         <motion.div
-        variants={fadeIn("up", "tween", 0.3, 1)}
-        
-        className={css.person}>
-          <motion.img 
-          variants={slideIn("up", "tween", 0.3, 1)}
-          
-          src="./person.png" />
+          variants={fadeIn("up", "tween", 0.3, 1)}
+          className={css.person}>
+          <motion.img
+            variants={slideIn("up", "tween", 0.3, 1)}
+            src="./my2.png"
+          />
         </motion.div>
 
         {/* Email section */}
         <a className={css.email} href="mailto:jaivaishnav.11.dk@gmail.com">
           jaivaishnav.11.dk@gmail.com
         </a>
+        <div className="Mycv">
+          <a href="MyCv1.pdf">Download CV</a>
+        </div>
 
         {/* lower Element */}
         <div className={css.lowerElements}>
           <div className={css.experience}>
-            <div className="primaryText">10</div>
+            <div className="primaryText">1+</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Experience</div>

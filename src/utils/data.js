@@ -4,19 +4,19 @@ import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
     name: "Website Design",
-    projects: 76,
+    projects: 5,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
     name: "Mobile App Design",
-    projects: 63,
+    projects: 3,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
     name: "Brand Identity",
-    projects: 47,
+    projects: 0,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
@@ -29,25 +29,22 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    place: "Self-Employed, ",
+    tenure: "Aug 2021 - Sep 2022",
+    role: "Web Designer",
+    detail: "A Web  desginer dsesign ",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
+    place: "Clients Base Projects",
+    tenure: "Aug 2022 - Sep 2023",
     role: "UI/UX Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    detail: "A UI/UX dsesign for a  sites, Moblie App. ",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    place: "Android-App",
+    tenure: "Aug 2023 - Sep 2023",
+    role: "Frontend Developer",
+    detail: "I Made Some Mobile App UI/UX Design use React-Native / NextJs .",
   },
 ];
 
